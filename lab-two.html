@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      
+        header{
+            background-color: rgb(16, 16, 16);
+            color:white;
+            display:flex;
+            padding: 0%;
+            justify-content: space-between;
+            align-items: center;
+            text-size-adjust: 54;
+            
+        }
+        footer{
+            background-color: rgb(16, 16, 16);
+            color:white;
+            align-items: center;
+            display:flex;
+            justify-content: center;
+            text-size-adjust: 54;
+
+        }
+        
+        h1{
+            margin-left: 5%;
+            margin-right: 5%;
+        
+        }
+        nav{
+            display: flex;
+            margin-left: 5%;
+            margin-right: 10%;
+        }
+        nav a{
+            color: white;
+            margin:0 10px;
+        }
+        body {
+            margin: auto;
+            
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 100vh;
+          
+        }
+        main {
+            position: relative;
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: auto ;
+           margin-right: auto;
+        } 
+
+        img {
+
+            
+            height: 225px;
+            width: 600px;         
+            position: absolute;
+        }
+
+        img:nth-child(1) {
+            
+            top:8%;
+            
+        }
+
+        img:nth-child(2) {
+            top: 51%;
+            right: 50%;
+            
+            border: 2px solid #000;
+            padding: 40px 10px 15px 10px;
+        }
+
+        img:nth-child(3) {
+            top: 51%;
+            left: 50%;
+
+            border: 2px solid #000;
+            padding: 40px 10px 15px 10px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+       <h1>Welcome to Software Design Website</h1> 
+       <nav>
+        <a >About Us</a>
+        <a >Services</a>
+        <a >Contacts Us</a>
+    </nav>
+    </header>
+
+    <main>
+        
+        <img src="https://cdn.mos.cms.futurecdn.net/VWFncKUBaF9E3v4k8QkJbf-970-80.jpg.webp" alt="Image 1">
+        <img src="https://cdn.vox-cdn.com/thumbor/WKLX_xfkBokFUfWnfr2cflw2djA=/0x0:2864x1200/920x613/filters:focal(982x303:1440x761):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/57044477/blade3.0.jpg" alt="Image 2">
+        <img src="https://pyxis.nymag.com/v1/imgs/d8e/265/8647a0155d65e195130745751c6682e17d-cowboy-bebop-.rsquare.w330.jpg" alt="Image 3">
+    
+        <h2 style="position: relative;  bottom:290px;">About Us</h2>
+
+        <p style="position: absolute; bottom: 550px; white-space: nowrap;">We are a company dedicated to providing excellent services to our customers. </p>
+
+        <h2 style="position: absolute;top:42%;white-space: nowrap;">Our Services</h2>
+
+        <h3 style="position: absolute;white-space: nowrap; top:49%; left: 350%;">Graphic Design</h3>
+        <p style="position: absolute;white-space: nowrap;top:52%; left: 150%;">We specialize in creating responisive and user-friendly websites.</p>
+
+        <h3 style="position: absolute;white-space: nowrap; top:49%; right:350%;">Web Development</h3>
+        <p style="position: absolute;white-space: nowrap;top:52%; left: -500%;">Our talented designers can bring your ideas to life with stunning  visuals.</p>
+
+    </main>
+    
+    
+    
+    
+    <footer>
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
